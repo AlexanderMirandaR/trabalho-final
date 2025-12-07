@@ -2,6 +2,10 @@
 
 Aplicação full stack para gerenciamento de eventos desenvolvida com React e Spring Boot.
 
+## 👨‍💻 Integrantes
+
+Alexander Miranda Ribeiro
+
 ## 📋 Requisitos Atendidos
 
 ### Backend (Spring Boot)
@@ -83,7 +87,7 @@ A aplicação estará disponível em `http://localhost:5173`
 
 ## 📚 Documentação
 
-A documentação da API está disponível em `/swagger-ui.html` quando o backend está em execução.
+A documentação da API está disponível em `https://api-trabalho-tqyl.onrender.com/swagger-ui/index.html#/` quando o backend está em execução.
 
 ## 🔐 Autenticação
 
@@ -103,3 +107,13 @@ Para produção, configure as seguintes variáveis:
 - `SPRING_DATASOURCE_PASSWORD` - Senha do banco
 - `JWT_SECRET` - Chave secreta para JWT
 - `JWT_EXPIRATION` - Tempo de expiração do token em ms
+
+## 🔗 Links do Projeto
+
+- Repositório Git: `https://github.com/AlexanderMirandaR/trabalho-final`
+
+- Frontend (Vercel): `https://frontend-trabalho-ten.vercel.app/login`
+
+- Backend (Render + Swagger): `https://api-trabalho-tqyl.onrender.com/swagger-ui/index.html#/`
+
+- Vídeo de Demonstração: `https://unilavrasedu-my.sharepoint.com/:v:/g/personal/alexandermiranda_unilavras_edu_br/IQDRNXDg6zWBSq1Hu6LS4QfPATW7-V7Q8F8dAL1nGvBiFxo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DsZ9hE`
