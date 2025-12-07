@@ -1,0 +1,12 @@
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.idea/
+backend/*.iml
+frontend/node_modules/
+frontend/dist/
+.git
+.gitignore
+.env
+.env.local
