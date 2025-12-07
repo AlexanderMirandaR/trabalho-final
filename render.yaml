@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: api-trabalho
+    runtime: java
+    buildCommand: cd backend && mvn clean install
+    startCommand: cd backend && java -jar target/api-1.0.0.jar
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        value: jdbc:mysql://HOST:PORT/defaultdb?useSSL=true&requireSSL=true&serverTimezone=UTC
+      - key: SPRING_DATASOURCE_USERNAME
+        value: avnadmin
+      - key: SPRING_DATASOURCE_PASSWORD
+        value: AVNS_xxxxxxxxxxxxx
+      - key: SPRING_JPA_HIBERNATE_DDL_AUTO
+        value: update
+      - key: JWT_SECRET
+        value: sua-chave-secreta-muito-longa-e-segura
+      - key: JWT_EXPIRATION
+        value: "86400000"
